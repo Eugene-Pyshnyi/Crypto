@@ -7,7 +7,7 @@ import ru.javarush.pyshnyi.crypto.result.Result;
 import java.util.Arrays;
 
 public class App {
-    private MainController mainController;
+    private final MainController mainController;
     public App() {
         mainController = new MainController();
     }
