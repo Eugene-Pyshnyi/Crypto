@@ -1,7 +1,17 @@
 package ru.javarush.pyshnyi.crypto.result;
 
 public class Result {
-    public Result run() {
-        return null;
+    private final String message;
+    private final ResultCode resultCode;
+    public Result(String message, ResultCode resultCode) {
+        this.message = message;
+        this.resultCode = resultCode;
+    }
+    @Override
+    public String toString() {
+        return "Result{" +
+                "message = \'" + message + "\'" +
+                ", resultCode = " + resultCode +
+                "}";
     }
 }

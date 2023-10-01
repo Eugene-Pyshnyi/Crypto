@@ -3,9 +3,10 @@ package ru.javarush.pyshnyi.crypto.commands;
 import ru.javarush.pyshnyi.crypto.result.Result;
 import ru.javarush.pyshnyi.crypto.result.ResultCode;
 
-public class Decode implements Actions{
+public class BrudeForce implements Actions{
     @Override
     public Result execute(String[] parameters) {
-        return new Result("decode all right", ResultCode.OK);
+        //TODO something do
+        return new Result("BrudeForce complete", ResultCode.OK);
     }
 }

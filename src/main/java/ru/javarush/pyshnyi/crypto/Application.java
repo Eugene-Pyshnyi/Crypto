@@ -6,17 +6,18 @@ import ru.javarush.pyshnyi.crypto.result.Result;
 
 import java.util.Arrays;
 
-public class App {
+public class Application {
     private final MainController mainController;
-    public App() {
+    public Application() {
         mainController = new MainController();
     }
     public Result run(String[] args) {
         if (args.length > 0) {
             String action = args[0];
             String[] parameters = Arrays.copyOfRange(args, 1, args.length);
-        mainController.act(action, parameters);
+            return mainController.act(action, parameters);
+        } else {
+            throw new CryptoExceptions("no args");
         }
-        throw new CryptoExceptions();
     }
 }
