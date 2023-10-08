@@ -8,7 +8,7 @@ public class Dialogue {
     public static void run(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Выберите режим работы программы:");
-        System.out.println("1. Encrypt \n2. Decrypt \n3. Brute Force encrypt \n");
+        System.out.println("1. Encryption \n2. Decryption \n3. Brute Force decryption \n");
         int i = scanner.nextInt();
         switch (i) {
             case 1 :
@@ -20,6 +20,8 @@ public class Dialogue {
             case 3 :
                 BruteForce.bruteForce();
                 break;
+            default :
+                System.err.println("Выберите один из вариантов");
         }
     }
 }
