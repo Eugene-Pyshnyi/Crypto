@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81b1e5e5-12f1-4397-8f0a-1b6de3cdd27c" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/Dialogue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/caesar/CaesarDecryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/caesar/CaesarEncryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/ConsoleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/ConsoleRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/alphabet/Alphabet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/alphabet/Alphabet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/commands/Actions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/commands/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/commands/BruteForce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/commands/Decode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/commands/Decode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/commands/Encode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/commands/Encode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/controllers/ActionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/controllers/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/exceptions/CryptoExceptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/result/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/javarush/pyshnyi/crypto/result/ResultCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/dictionary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/text.txt" beforeDir="false" />
+    <list default="true" id="81b1e5e5-12f1-4397-8f0a-1b6de3cdd27c" name="Changes" comment="Committed">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +26,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Eugene-Pyshnyi"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e13ded3f-7a60-44b4-bb9f-6d669b7ea148" />
+        <option name="url" value="https://github.com/Eugene-Pyshnyi/Crypto.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,18 +59,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "ForPull",
+    "ignore.virus.scanning.warn.message": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.javarush.pyshnyi.crypto.picocli" />
@@ -109,6 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsoleRunner" />
+        <item itemvalue="Application.BruteForce" />
         <item itemvalue="Application.ConsoleRunner" />
         <item itemvalue="Application.BruteForce" />
       </list>
@@ -163,7 +166,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696190099430</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commited">
+      <option name="closed" value="true" />
+      <created>1696948032101</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696948032101</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Committed">
+      <option name="closed" value="true" />
+      <created>1696949762665</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696949762665</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +202,9 @@
     <MESSAGE value="Modified MainController to final" />
     <MESSAGE value="Almost finished the project" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Commited" />
+    <MESSAGE value="Committed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
