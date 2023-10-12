@@ -5,6 +5,7 @@ import ru.javarush.pyshnyi.crypto.commands.Encode;
 import java.util.Scanner;
 
 public class Dialogue {
+    public static String TEACHING;
     public static void run(){
         Scanner scanner = new Scanner(System.in);
         int choice;
