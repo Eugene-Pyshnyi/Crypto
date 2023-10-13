@@ -1,6 +1,7 @@
 package ru.javarush.pyshnyi.crypto.caesar;
 
 public class CaesarEncryption {
+    public static String LECTURES;
     public static String encrypt(String plaintext, int key, String alphabet) {
         StringBuilder cipherText = new StringBuilder();
 
